@@ -3,6 +3,43 @@ Hi, my name is Dave Street. I completed Software Developer Boot Camp and earned 
 <br><br>
 Working with C# on Theatre Vertigo website completing these tasks:
 - Create a New User easy login for development purposes.
-- Create a new Donation Model table in the database with a one to many relationship between the AppUser (or Donor) and Donation including a timestamp at time of donation.
+- Create a new Donation Model table in the database with a one to many relationship between the AppUser (or Donor) and Donation including a timestamp at time of donation. Here is a code sample:
+```
+namespace TheatreCMS.Models
+{
+    public class Donation
+    {
+        public Donation()  // donation constructor
+        {
+            DonationTime = DateTime.Now;    //with dateTime at instatiation of object
+        }
+
+        [Key]                                    // primary key
+        public int DonationId { get; set; }
+        public DateTime DonationTime { get; set; }
+        public int Amount { get; set; }
+
+        public ApplicationUser Donor { get; set; }  // set foreign key to ApplicationuUser id with Donor
+    }
+}
+```
 - Create an Admin field for a visiting theatre company’s name to be displayed in the About section and be easily updated as desired. This included helping to phase out an older reader method and update using Json properties instead.
-- Create a new Rental History Model table in the database with a fully defined one to many relationship between the AppUser (or Renter) and Rental History.
+- Create a new Rental History Model table in the database with a fully defined one to many relationship between the AppUser (or Renter) and Rental History. Here is a code sample of that:
+```
+namespace TheatreCMS.Models
+{
+    public class RentalHistory
+    {
+        [Key]
+        public int RentalHistoryId { get; set; }
+
+        public ApplicationUser Renter { get; set; }
+        public Rental Rental { get; set; }
+        public int RentalId { get; set; }
+        public bool RentalDamaged { get; set; }
+        public string DamagesIncurred { get; set; }
+
+    }
+}
+
+```
