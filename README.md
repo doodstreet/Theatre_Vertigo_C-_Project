@@ -3,7 +3,7 @@ Hi, my name is Dave Street. I completed Software Developer Boot Camp and earned 
 <br>![theatreVertigo](https://user-images.githubusercontent.com/68976585/104262987-8b324d80-543d-11eb-97f2-88d3b2e99250.png)
 <br>
 Working with C# on Theatre Vertigo website completing these tasks:
-- Create a New User easy login for development purposes.
+- Create a New User easy login so no user name or password is required to login for development purposes.
 
 - Create a new Donation Model table in the database with a one to many relationship between the AppUser (or Donor) and Donation including a timestamp at time of donation. Here is a code sample:
 ```
