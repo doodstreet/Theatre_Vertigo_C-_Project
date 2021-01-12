@@ -26,7 +26,7 @@ namespace TheatreCMS.Models
 ```
 - Create an Admin field for a visiting theatre company’s name to be displayed in the About section and be easily updated as desired. This included helping to phase out an older reader method and update using Json properties instead.
 ![adminField](https://user-images.githubusercontent.com/68976585/104261717-06463480-543b-11eb-95d9-4c186aeb927f.png)
-
+![theatreAbout](https://user-images.githubusercontent.com/68976585/104261726-08a88e80-543b-11eb-90a5-e1bff0b7a901.png)
 - Create a new Rental History Model table in the database with a fully defined one to many relationship between the AppUser (or Renter) and Rental History. Here is a code sample of that:
 ```
 namespace TheatreCMS.Models
