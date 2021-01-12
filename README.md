@@ -47,3 +47,5 @@ namespace TheatreCMS.Models
 }
 
 ```
+<h2>Conclusion</h2>
+I learned so much in this experience with Asp.Net and MVC frameworks. I ran into some challenges working with a code first datbase setup, but was very satisfying to accomplish tasks that I thought might be out of my scope. With research and perserverance, I am finding all can be achived. I am pleased with my better understanding of fully defined one to many database relationships and how to implement them. What a great experince to work on a project with many other developers and better my version control and branching, seeing the evolution of the project happen each day a new master version is updated. I look forward to improving my skills accross the board with each project experience.
