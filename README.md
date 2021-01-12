@@ -1,6 +1,7 @@
 # Theatre_Vertigo_C#_Project
 Hi, my name is Dave Street. I completed Software Developer Boot Camp and earned my certification from The Tech Academy. This was an intership experience  with Prosper I.T. Consulting. This project was a great experience for me using Agile/Scrum methodologies during this two week sprint.
-<br>![theatreAbout](https://user-images.githubusercontent.com/68976585/104261726-08a88e80-543b-11eb-90a5-e1bff0b7a901.png)<br>
+<br>![theatreVertigo](https://user-images.githubusercontent.com/68976585/104262987-8b324d80-543d-11eb-97f2-88d3b2e99250.png)
+<br>
 Working with C# on Theatre Vertigo website completing these tasks:
 - Create a New User easy login for development purposes.
 
